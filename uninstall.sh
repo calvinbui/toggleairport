@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #git@github.com:paulbhart/toggleairport.git
 #originally from https://gist.github.com/albertbori/1798d88a93175b9da00b
 
