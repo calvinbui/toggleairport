@@ -6,14 +6,6 @@ sudo rm /Library/Scripts/toggleAirport.sh
 launchctl unload /Library/LaunchAgents/com.mine.toggleairport.plist
 sudo rm  /Library/LaunchAgents/com.mine.toggleairport.plist
 
-if [ -f "/var/tmp/prev_eth_on" ]; then
-    rm /var/tmp/prev_eth_on
-fi
-
-if [ -f "/var/tmp/prev_air_on" ]; then
-    rm /var/tmp/prev_air_on
-fi
-
-if [ -f "/var/tmp/prev_toggle_airport_run" ]; then
-    rm /var/tmp/prev_toggle_airport_run
-fi
+rm -f /var/tmp/prev_eth_on
+rm -f /var/tmp/prev_air_on
+rm -f /var/tmp/prev_toggle_airport_run
